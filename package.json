@@ -5,7 +5,9 @@
     "start": "scripts/start",
     "test": "scripts/test",
     "build": "scripts/build",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build && rm -rf src",
+    "postpublish": "git checkout -- .",
+    "postinstall": "node -e \"require('fs').stat('lib', function (e, s) { process.exit(e || !s.isDirectory() ? 1 : 0) })\" || npm run build"
   },
   "jest": {
     "testEnvironment": "node"
