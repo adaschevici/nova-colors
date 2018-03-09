@@ -11,12 +11,14 @@ const colorValues = {
   },
   grays: {
     gray0: '#1E272C',
-    gray1: '#3C4C55',
+    // gray1: '#3C4C55',
+    gray1: '#002833',
     gray2: '#556873',
     gray3: '#6A7D89',
     gray4: '#899BA6',
     gray5: '#C5D4DD',
-    gray6: '#002833',
+    gray6: '#E6EEF3',
+    gray7: '#002833',
   },
 }
 
