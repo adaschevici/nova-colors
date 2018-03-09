@@ -16,7 +16,7 @@ const colorValues = {
     gray3: '#6A7D89',
     gray4: '#899BA6',
     gray5: '#C5D4DD',
-    gray6: '#E6EEF3',
+    gray6: '#002833',
   },
 }
 
